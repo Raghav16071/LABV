@@ -8,7 +8,9 @@ class code6
 
 		public static void main(String[] args) throws IOException 
 		{
-
+			PrintWriter w = new PrintWriter("C:\\Users\\Raghav\\Desktop\\lab6ans" + ".txt", "UTF-8");
+			Scanner sc=new Scanner(System.in);
+			int n=sc.nextInt();
 			int iter=sc.nextInt();
 			int qx=sc.nextInt();
 			int qy=sc.nextInt();
